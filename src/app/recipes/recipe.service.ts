@@ -14,36 +14,36 @@ export class RecipeService {
     
     private recipes:Recipe[] = [
         new Recipe(
-            'Prawn and lemongrass soup',
-            'It’s one of the most subtle and delicious aromatics. Use it in soup, and save some for pudding, too.',
-            'https://gdurl.com/bIhf',
+            'Fried Rice',
+            'Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.',
+            'https://gdurl.com/T7zB',
             [
-                new Ingredient('prawns',16),
-                new Ingredient('shallots',5),
-                new Ingredient('carrots',4),
-                new Ingredient('lemongrass stalks',3)
+                new Ingredient('rice',1),
+                new Ingredient('eggs',2),
+                new Ingredient('shrimps',1),
+                new Ingredient('carrots',2)
             
             ]
         ),
         new Recipe(
-            'Savoury gruyere and pumpkin pie',
-            'While some of the pumpkins currently spilling out of greengrocers’ displays are destined to become jack-o’-lanterns, the best are made for mashing. Try this savoury gruyere pie or speedy chilli-spiked soup',
-            'https://gdurl.com/G_iN',
+            'Omelette',
+            'In cuisine, an omelette or omelet is a dish made from beaten eggs fried with butter or oil in a frying pan (without stirring as in scrambled egg). It is quite common for the omelette to be folded around a filling such as cheese, chives, vegetables, mushrooms, meat (often ham or bacon), or some combination of the above.',
+            'https://gdurl.com/CPzI',
             [
-                new Ingredient('pumpkin',1),
+                new Ingredient('eggs',3),
                 new Ingredient('onion',1),
-                new Ingredient('eggs',2),
-                new Ingredient('gruyere',1),
+                new Ingredient('bacon',3),
+                new Ingredient('chives',1),
             ]
         ),
         new Recipe(
-            'Squid and chorizo, almond picada',
-            'Nuts bring a lot to the table. Use them toasted in salads, to bolster a cake or to add texture and flavour to seafood.',
-            'https://gdurl.com/1P17',
+            'Spaghetti Bolognese',
+            'Spaghetti bolognese (sometimes called spaghetti alla bolognese, or colloquially spag bol or just spaghetti) is a pasta dish consisting of spaghetti served with a sauce made from tomatoes, minced beef, garlic, wine and herbs; sometimes minced beef can be replaced by other minced meats.',
+            'https://gdurl.com/BIyY',
             [
-                new Ingredient('squid',1),
-                new Ingredient('chorizo',2),
-                new Ingredient('plum tomatoes',5),
+                new Ingredient('spaghetti',1),
+                new Ingredient('tomatoes',3),
+                new Ingredient('mince meat',1),
                 new Ingredient('garlic cloves',2),
             ]
         ),
